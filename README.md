@@ -3,7 +3,7 @@
 # Lpo & Ftl
 Lpo Ftl: Leporish engineering language of unambiguous reductions (~2x shorter than English with the same alphabet) + Fantasy world simulator game «Fat Lizard» with Leporish-based voice synthesis
 
-![flag.png](Lpo flg.png)
+![flag.png](Lpo_flg.png)
 
 ## How to use:
 The main files for using the language:
