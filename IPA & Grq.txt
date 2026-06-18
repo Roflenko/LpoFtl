@@ -1,0 +1,7 @@
+﻿a, i, u, ɛ, o, ja, ju, jo, m, p, f, n, t, s, l, r, k, x, ʂ, t͡ɕ, b, v, d, z, ɡ, ʐ
+
+-- Grq:
+"Alpha, Beta, Gamma, Delta, Epsilon, Zeta, Eta, Theta, Iota, Kappa, Lambda, Mu, Nu,
+Xi, Omicron, Pi, Rho, Sigma, Tau, Upsilon, Phi, Chi, Psi, Omega"
+Α α, Β β, Γ γ, Δ δ, Ε ε, Ζ ζ, Η η, Θ θ, Ι ι, Κ κ, Λ λ, Μ μ, Ν ν, 
+Ξ ξ, Ο ο, Π π, Ρ ρ, Σ σ/ς, Τ τ, Υ υ, Φ φ, Χ χ, Ψ ψ, Ω ω

@@ -1,0 +1,210 @@
+# Список Сводеша для Лепориша:
+x == I @ я   ^ ego, xk
+w == thou, you (single) @ ты
+hi = "q mn" == he @ он   ^ q
+mi = "x i" == we @ мы
+vi = "w i" == you (plural), yal, yall, you all @ вы
+zi = "q i" = "it i" == they @ они
+et = eto = zs = zis == this @ это   ^ bi, s
+to = zt == that @ оный, тот, та, то
+hx = hia = vot = tut == here @ здесь, вот, во, тут
+yt = tam == yon, yonder, over there @ там, вон
+hu == who @ кто
+co = cto = qto = uot == what @ что   //Ukr"шо"
+g = ge = de = gde == where @ где, де
+v = ve == when @ когда   ^ vrs
+ka = kak = hau == how @ как   ^ os
+n = ne = ¬ = nou = noup = nea == not, no, nay, nope @ не   ^ da, ni, ngli
+ol == all @ все, всё   ^ uo, foo
+lt = lot = uim == many, a lot, plenty, numerous, much @ много, уйма
+sc = som == some @ некий, какой-то, какой-нибудь, некоторый
+fw == few, some @ несколько, немного   ^ ll
+az == other, another, different @ иной, другой, прочее, прочий, др
+un = 1 == one @ один   //Latin "unus"
+duf = 2 == two @ два
+sri = 3 == three @ три
+for = 4 == four @ четыре
+fif = 5 == five @ пять
+xr = big == big, great @ большой   ^ lrj, ic
+ln = lon == long @ длинный, длина, длинна, длинно
+cz = cir = C == wide, expansion, broad, expand, width @ широкий, широко, расширять, расширить, обширный, обширность, расширение, ширина, широта (не географическая)
+zik == thick @ толстый, толсто, толщина, утолщение
+tj = txj = hvi = hevi = "xr ves" == heavy, heft @ тяжелый, тяжёлый, тяжесть
+ll = lil = litl = mal = smol == little, small, slightly, petty @ малый, мелкий, мелко, мало, маленький, чутка   ^ fw, ocq, µ, ‰, nno, ik
+cor == short @ короткий, коротко, кратко, краткость, краткий, укорачивать, короче
+uz = uzk == narrow, tight @ узкий, узко, плотно, сужаться, сужать, тесно, тесный, теснить
+zin == thin @ тонкий, тонко   ^ ylm
+gl = gal = fem = G == female, gal, woman, women @ женщина, женщина, девушка, самка
+mn = men = M == man, male @ мужчина, мужской, самец
+ql = dwd == men (not biological), guy, dude, civilized animal @ человек (не биологически), цивилизованное животное, чувак   ^ zu
+kid = kido = qild == child, kid, childish, pedo @ ребёнок, дитя, детский, ребячится, чадо, педо   ^ yn, bb
+jn = jna = vaif = vaifu == wife @ жена, супруга
+muc = muj = hasb == husband @ муж, супруг
+mam = mama = maz = mamka == mother, mom, mum, mama, mommy, mamma, mummy, mam @ мама, мать, матушка, мамаша, мамочка
+pap = papa = faz = papka = batx == father, dad @ папа, отец, отче, батя, батюшка, папочка
+zu = ani = zoo == animal, animalistic, zoo @ животное, животный   ^ ql, dmb, diq
+fic == fish @ рыба, рыбный
+byd = byrd = pti == bird, fowl @ птица, птичий, птичка
+dog == dog @ собака (любого пола), собачий, псиный, псовый   ^ dogi, pys, bq, cn
+law = laus == lice, louse @ вошь, вшивый
+zm = zme = zmei = zmex = vaipr = vipr == snake, serpent, viper, asp, ophidian @ гадюка, змей, змея, змеиный   ^ lami
+yrm = vorm == worm @ червь, червивый   ^ hmz
+tri = drv = drev = drevo == tree @ дерево, древесный, древо   ^ dupo
+les == forest @ лес, лесной
+yka = palk = stik == stick @ палка, палочка, палочный   ^ brq, staf, jzl, cst, joik
+ftu = ftus == fetus @ плодовитый, плодить, плод
+sid == seed @ семя, семенной, осеменить, семечко
+lif == leaf @ лист (растения)
+rut == root @ корень, корневой   ^ mrt
+kra = kora == bark, tree bark @ кора
+fla = flav == flower @ цветок, цветочный   ^ blum
+grs = gras = trav = trava == grass @ трава, травяной, травянистый
+rop = roup = tros = kanat == rope @ верёвка, верёвочный, канат, канатный, трос   ^ cnu
+ski = skin == skin @ оболочка (мягкая), кожа   ^ koj, cl, olk
+xs = mxs = mit == meat, flesh @ мясо, мясной, плоть, плотский
+bla = blad = krov == @ кровь, кровавый, кровяной, кровный, кровить, blood   ^ alx
+bon == bone @ кость, костевой, костяшка
+ft = jir == fat, fats @ жир, жирный, толстый, жирно, жиреть, жиры
+xi = xis = xiq == egg @ яйцо, яичный   ^ xii
+rog = horn == horn, horny @ рог, роговой
+hvo = hvos = teil == tail @ хвост, хвостатый
+fz == feather @ перо, перьевой   ^ puh
+hr = "vls i" == hair @ волосы
+hd == head @ голова, головной, главный, глава
+uh = uho == ear @ ухо, ушной   ^ uhi, uhf
+oko = gla = glaz == eye @ глаз, глазной, око   ^ oki, oqn
+nos == nose, nasal @ нос, носовой, назальный
+rot == mouth @ рот, ротовой
+zb = zub == tooth @ зуб, зубной   ^ zbi
+xzk == tongue @ язык, язычный
+nog = neil == nail, fingernail @ ноготь, ноготок   ^ nogi
+fut == foot, sole @ ступня, стопа   ^ lg
+lg == leg @ нога   ^ lgi, fut
+lp = kni == knee, lap @ колено, коленный   ^ nil, lptop
+ru = ruk = ruka == arm @ рука, рукий, ручной   ^ hnd, ruq, ruki, rukj
+vig = ving == wing @ крыло, крылатый, окрылять   ^ vigo
+bli = puz = puzo = brwh == belly, tummy @ пузо, живот, животик, брюхо
+gut == gut @ кишка
+cx == neck @ шея, шейный
+rw == back, rear @ спина, спинка   ^ bk   //Germ"rucken"
+bws = bwst = grud ==  bust breast chest bosom petto @ грудь, бюст, бубсы   ^ titi
+hat = hart = kardio == heart, cardio, cordial, cardiac @ сердце, сердечный, кардио, кардиальный
+lvr = livr == liver @ печень, печёночный
+dri = drin == drink @ питьевой, питьё, отпить, запить
+xc = kuc = hava == eat @ кушать, кушание, есть, поедать   ^ jor, onsu
+kus == bite @ укус, кусать, укусить, кусающий, кусючий, прикусить, прикусывать   ^ griz, okus
+sos = sak == suck @ сосать, сосущий, сосание, высасывать, всасывать, всасывание, высасывание   ^ sakk, psak
+ple = spit == spit @ плевок, плюющийся, плевать, плеваться
+pwk = "toc d" == puke, throw up, threw up, vomit @ рвота, рвать, вырвать, блевать
+dut == blow @ дуть, дуновение, дующий   ^ zf, adut
+udh = "du dih" == breathe @ дышать, дышащий
+laf = hoh = rjk == laugh @ смех, смеющийся, смеяться, хохот, хохотать, хохочущий, ржать   ^ h, jok
+si = "ef voq" == see @ увидеть (распознав), видеть, узреть, зрящий, глядеть, глядящий   ^ rko, voq, luk, vw, zre
+hir = slic = "ef luc" == hear @ слышу, слышать, слышащий, слышь, услышь   ^ mik
+ko = kno == know, knowledge, ken, kennen, Logos @ знание, знать, знаю, логос   ^ nuo, lor, cpo, ozna, izv, knu
+dy = dum == think @ думать, мышление, думающий, думание   ^ udum, idum
+ox = nwh = snif == scent, sense of smell, to smell, olfactory, sniff @ обоняние, нюхать, нюхательный
+ow = skr = "fir ek" == scare @ испуг, испуган, испуганный, напуган, напуганный, испугать, бояться, боиться, боязно   ^ owk
+sno = slip = spat == sleep, slumber @ спать, спящий, уснуть, уснул, уснувший, засыпать   ^ son, onx, drm
+ji = jz = jiz = bio = laif == life, living, live, biotic, organic, organics, organically @ жизнь, живой, живо, жить, биота, биотический, органика, органический, органично, биологический   ^ jix, jiv, vit, biog, jil
+ds = dz = mort == die, death, demise @ смерть, умирать, умереть, погибать, погибающий, погибший, дохнуть, кончина, отмирать, отмереть, отмерший
+ub = kil = myrd == kill, murder, homicide @ убить, убивать, убийство, убитый, убит, умерщвление, убой   ^ sas, ubr, ubx
+fat = fait = bravl == fight, brawl @ драка, бой, драться, бороться   ^ bat
+oho = hant == hunt @ охота, охотиться, охотничий
+hit = bam = bamp = uda = udar == hit, bump @ попадание, попавший, попало, попадать, ударить, бить, ударенный, бей   ^ bac, cot, hur
+kat == cut, shear @ резать, порез, порезанный, разрезанный, срезать, срезать   ^ sqn, trq, srv
+sep = sepr == separate, separation @ отделять, отделить, отдельно, отделение, отдельный, разделить, разделение, разделитель   ^ sp
+pxr == stab @ пырнуть, пырять   ^ ukl
+crx = ckrx = skrq == scratch, scrape @ царапать, поцарапать, царапина, шкрябать, скрести   ^ skq, qc
+dig = kopa == dig @ копать, копающий, подкоп, копаться, рыть   ^ yhl
+svi = svim == swim, swiming @ плавать, плавание, плавающий, плыть, плывущий
+ly = lyt = flai == fly, flight @ летать, полёт   ^ aly, nly, lyp, hovr, onq
+idi == walk @ идти, ход, идущий, идущее, идти   ^ go
+kam == come @ приходить, прийти, приходящий, приход, наступить (прийти), наступил, наступать, наступление   ^ ari, liv
+lj = lej == lay, lie down @ лечь, лежать   ^ ljk
+sj = sit == sit @ сидеть, сесть, сидящий, садиться, садить, сидение   ^ sjk
+xt = sto = stei == stay, stand @ стоять, стоящий, стоянка, встать   ^ vso
+spw = spin == spin, rotate, rotation @ вращение, вращаться, вращать, крутить, крутится, крутиться, кручение, закрученный, оборот, оборачиваться   ^ osi
+fol == fall @ падать, падение, падающий
+gi = giv == give @ дать, давать, дано, данный, выдать, выдача, выдавать, выдавать, выдача, раздача, раздать   ^ gai, isr, xnt
+hld = hold = drj = derj == hold @ держать, держаться, держится, держащий, держа, держание, удерживать, удержание, удержать, удержанный   ^ kip
+sji = sjim == compress, squeeze @ сжать, сжимать, сжатие, сжатый   ^ jim
+rub == rub @ тереть (нежно), трение, трущийся, перетереть, тёрка, втирать, растирать, натирать   ^ glj, koc
+voc == wash @ мыть, мыто, мытьё, моющий, помыть   ^ bs
+aip = vaip == wipe @ вытирать, протирать, утирать
+pul == pull, drag @ тянуть, тянуться, притягивать, притяжение
+puc == push @ толкать, толчок, толкающий, пихать   ^ ouk
+tos = bros == throw, shot, toss @ бросок, бросать, брошеный, метать, кидать, кинуть, закинуть, закидывать   ^ kas, mts, tosk, tosr
+vxz = vxj == tie, knitting @ вязать, завязывать, завязать, вяжущий, вязание, завязывание, привязать, привязывать, привязаться
+cy = ciq = stiq == sew, stitch @ шить, шитьё, сшитый, шитый   ^ cyr
+sqo == numeric count @ счёт, считать, расчёт, рассчёт, численный счёт   ^ kut
+xl = ial = dial = "du xz" == talk (in any way), conversation, converse @ говорить (любым способом), разговаривать, диалог, разговор, диалоговый, разговорный, dialog   ^ qat, iku, spi
+sih = sing = psn = pesn == sing, song, musical track @ песнь, песня, петь, песенный, трэк   ^ muz, vka, ham, sinr
+ig = igra = plei == play, playback, gameplay @ играть, процесс игры, матч, исполнять, проигрывать (запись), воспроизведение, воспроизвести   ^ pfo, gm, igr
+svi = svim == swim, swiming @ плавать, плавание, плавающий, плыть, плывущий
+tok = flwk = flwks = strim == flow, current, creek, brook, rivulet, stream, flux, flood, torrent @ течение, течь, поток, ручей, трансляция   ^ utq
+mrz = moroz = frost == frost, frozen, freeze @ мороз, мёрзнуть, морозный, замёрзший, замороженный   ^ fzm, hla, mrj
+svl = buha == swell @ набухать, набухнуть
+sol == sun, sunny @ солнце, солнечный, солнечно
+mun = lun = luna == moon @ луна   ^ mufo, mon
+zvy = star == star @ звезда, звёздный, звёздочка   ^ pun, sol, szvy
+vf = vod = voda = akv = akva == water, hydro, aqua @ вода, водный, поливать, полив, поливать   ^ gdr, vt, jd
+rei = ren = rein == rain @ дождь, дождевой, дождливо, дождливый   ^ livn
+riv = rka = reka == river @ река, речной
+ozy = oze = ozr = leik == lake, lough, loch @ озеро, озёрный   ^ rud
+sia == sea @ море, морской   ^ ocn
+sal = salt == salt, saline @ соль, солевой   ^ oly
+rok = ston = stoun == stone, rock @ камень, каменный, катиться камнем
+and = sand == sand, sandy @ песок, песчаный
+pyl = dast == dust @ пыльный, пылить, запылять   ^ prah
+ys == earth, geo, terra @ земля, терра, тэрра, гео   ^ soi, suc
+kla = klau = klaud == cloud @ облако, облачный, облачно, туча
+fog = mist == mist, fog, haze @ туман, туманный, дымка, дымчатый
+nbo = neb = nebo = skai == sky @ небо, небесный, небеса   ^ rai, ae
+zf = ind = vind == wind, windy @ ветер, ветренно, ветренный, дуть (ветрить)   ^ ae, dut, orm, zfi   //Grq etymology
+wk = wki = sng = snou == snow @ снег, снежный, снежить   ^ snj, wkk, anwk   //Jap etymology
+ais = lyd == ice @ лёд, ледяной, ледышка
+fum == fume, smoke @ дым, дымный, дымить   ^ smk
+ac = fae = faer == fire, lit, flame @ огонь, огненный, зажигать, жар   ^ jiga, fayk, plm, byn, igi, oja
+ec == ash, ashes, ashen @ пепел, пепельный, зола, зольный
+jq = jig = cq = "ef byn" == fully burn @ жечь, сжигать, сжечь, сжигание, сжигающий, сожжённый, сожжён   ^ jg
+roa = road == road, route @ дорога, трасса    ^ rwt, trf
+gor = gora == mountain @ гора, горы, горный   ^ klf, lato, olm
+rd = red == red @ красный, краснота, краснеть   ^ al
+zl = gri = grin == green @ зелёный, зеленеть, зелень, зеленова
+lu = blu = blw == blue @ синий, синева, синеть
+jol = jolt == yellow @ жёлтый, жолтый, желтый, желтизна, желтеть
+qr = qor = qorn = blk == black @ чорный, чёрный, чернота, чернеть
+bl = bel = vait == white @ белый, белизна, белеть
+noq == night @ ночь, ночной, ночевать
+dn = dei = sut = sutk == day @ сутки, суточный, день, дневной, дней   ^ vikd
+ir == year @ год, годовой
+vom == warm, warmth, heat @ тёплый, теплота, тепло, теплится, греть, нагрев, нагревать, нагреть   ^ byl
+hla = hlad = kold == cold @ холод, холодный, холодно, охлаждать, охладить, охлаждение   ^ kul, mrz
+fh = ful == full, completely @ полный, безраздельно, полно, полностью, совершенно, полнить, наполнять, наполнить
+nw = nov = neo == new, novelty, neo @ новый, новизна, новинка   ^ nws, nwq
+jo = old == old @ старый, старость, стареть, пожилой   ^ jov, jos, eld
+vl = gud == good, well, fine @ хорошо, хороший, хорошеть   ^ btr, bst, mta, bd
+bd == bad @ плохо, плохой, плохеть
+gni = gnil == rot, rotten, decay, perishable @ гниль, гнилой, сгнить   ^ tln, mudi
+dyt = dyrt = grxz == dirt, dirty @ грязь, грязный   ^ kln, olw, ils
+prx = prxm == straight @ прямой, прямо, прям    ^ grz
+kru = krug == circle @ круг, круглый   ^ car, dyk, cil, rau
+crp = carp == sharp, sharpness @ острый (заточенный), остро, острота
+tup = "n crp" == blunt, become dull @ тупой, тупо, тупить, тупиться    ^ ili
+smu = smuz == smooth, smoothen, smoothing, anti-aliasing @ сгладить, сглаживать, сглаживание, сглаженный, ровный, ровно, гладкий, гладко   ^ imc
+vt = "vf aq" == wet, humidity, moisture @ мокрый, намокать, мочить, влажность   ^ vf
+suh == dry, dried @ сухой, осушённый, сушить, осушенный, осушать, высушенный, высушивать, высыхание, высыхать, сушёный, сушка   ^ fen, drn
+krk = kork == correct, right @ правильный, исправлять, правильно, правильность, верно, верный
+rx = nir = proki == close, near, proxy, proximity @ близкий, близить, близко, возле, сблизить сблизиться, сближать, сближаться, рядом   ^ yuk
+fy = far = tle = tele == far, tele- @ далеко, дальний, далёкий, теле-
+l = levo == left @ лево, левый   ^ p
+p = pavo == right @ право, правый   ^ l, prv
+uf == at, taken from, which it haves @ взятый из этого, у, при, находящийся в распоряжении у этого   ^ ot, u
+f = in = є == in, inside, throughout @ внутрь, внутри, за (время), в теченении (время), на протяжении
+ui = uiz == with, together @ вместе с, с   ^ tgz
+en = & == and, intersect @ и, пересечение   ^ engli, i
+if == if (condition until "so"|"hv") @ если (условие пока не "so"|"hv")   ^ nl, nif
+so = -> == thus, so, logical then @ следует, следствие, поэтому, ну как, то   ^ zus, sle, imli
+os = -< == cause, because, as @ ибо, потому что, благодаря, из-за, так как   ^ ka
+fx = imx == name (personal) @ (имя собственное) зваться, именоваться, именной, именованный   ^ nam, fax
