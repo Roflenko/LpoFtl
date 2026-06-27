@@ -1,7 +1,7 @@
 ### Leporish Dictionary update 27.06.26 (5650 lemmas)(N1: 03.12.25):
-//links: https://t.me/LpoFtl   https://vk.com/LpoFtl   //author: https://vk.com/agpucok
-//all: https://github.com/Roflenko/LpoFtl   ,
+//all materials: https://github.com/Roflenko/LpoFtl   ,
 // https://drive.google.com/drive/folders/1bAzzh8gHhv9JwHQLpxnrorTEpVuEgBOn?usp=drive_link
+//social: https://t.me/LpoFtl   https://vk.com/LpoFtl   //author: https://vk.com/agpucok
 
 ## description
 -- Lpo (#Leporish / #Lporic / #Ћепориш) = engineer language; goals:
@@ -31,12 +31,6 @@
 . or use pauses between words
 -- epenthesis: if no vowel after a consonant: pronounce short "э" (0.5 duration)
 //if you don't do this or use full-length "э", word spelling is still recognizable
--- epenthesis: pronounce short "э":
-Х between consonants: "tk->тэк", "mh->мэх"
-Х in 1-only-consonant word: "f->фэ"
-Х at the word end after "b v d z g j" : "ab->абэ", "loj->ложэ"
-Х nowhere if you sure in better sound: "pro -> пэро -> про", "Emma -> Ёмэма - > Ёмма"
-//the word spelling still be recognizable
 -- "e" not before vowel, and after consonant counts as Ru"е==йэ" iotized syllable
 -- grammar:
 Х all words are immutable (no declensions or conjugations)
@@ -5586,8 +5580,9 @@ fpu = vpu = "pu f" == let in @ впустить, впускать, впущенный, впуск   ^ fho
 upu = "pu ut" == let out @ выпустить, выпускать, выпущенный, выпуск   ^ iho
 um = skil = abil == skill, ability @ умение, способность, умение, уметь, умею,  умеющий, умело, навык, мастерство   ^ nuo, umb, kn, um, mz, oj, ebl, asr
 umb = "um ib" == capable @ способный, имеющий способности
-kn = "hv um" == can, could @ мог, могу, мочь, может, возможность (в плане умени€), способен   ^ ebl, kni
+kn = "hv um" == can, could @ мог, могу, мочь, может, возможность (в плане умени€), способен, под силу   ^ ebl, kni
 kni = "kn i" == capabilities @ способности, возможности
+"ef kn" == overcome @ осилить, осиливать
 ebl == able @ могу, мочь, возможность (в плане ситуации), возможно   ^ oj, kn
 oj = moj = mei == may, possible, possibility, might, maybe, can @ можно, может, возможность, наверно, наверное, возможно   ^ ebl, nz
 "n oj" == impossible, impossibility @ невозможно, невозможный, невозможность
