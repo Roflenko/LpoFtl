@@ -1,0 +1,16 @@
+# 14.07.26
+
+-- dl:
+ad == add @ добавл€ть, добавить, добавленный, добавочный, добавка   ^ pw, dop
+d = ed == [s] accomplished, -ed @ свершЄнный   ^ da   //at sentence start works as "da"
+adi = rkl = rekl == advertise, advertisement @ реклама, рекламировать   ^ afc
+uhj = uhaj = lirt = flirt == flirt, flirtation, dalliance, footsie, beguin @ флиртовать, ухаживать, ухажвание, заигрывать, заигрывание   ^ uhjr
+...
+
+-- ed:
+d == [s] accomplished, -ed @ свершЄнный   ^ da   //at sentence start works as "da"
+ad = rkl = rekl == advertise, advertisement, ad @ реклама, рекламировать   ^ afc, adi
+adi = "ad i" == advertisements @ рекламы, рекламные объ€влени€
+ed == add @ добавл€ть, добавить, добавленный, добавочный, добавка   ^ pw, dop
+uhj = uhaj = lirt = flirt = kkt = kokt == flirt, flirtation, dalliance, footsie, beguin, flirty, flirting, flirtatious, coquetry, coquettish @ флирт, флиртовать, ухаживать, ухажвание, заигрывать, заигрывание, кокетствовать, кокетство, кокетный, кокетливый   ^ uhjr, kkt
+...
