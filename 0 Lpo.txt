@@ -1,4 +1,4 @@
-### Leporish Dictionary update 02.08.26 (5808 lemmas)(N1: 03.12.25):
+### Leporish Dictionary update 23.08.26 (5823 lemmas)(N1: 03.12.25):
 //all materials: https://github.com/Roflenko/LpoFtl   ,
 // https://drive.google.com/drive/folders/1bAzzh8gHhv9JwHQLpxnrorTEpVuEgBOn?usp=drive_link
 //social: https://t.me/LpoFtl   https://vk.com/LpoFtl   //author: https://vk.com/agpucok
@@ -60,6 +60,8 @@
 -- "i" = Ru"й":
 • after vowel ¬before vowels&"x,w,y"
 • in "ie, ii" at word start › "ie, ii" = Ru"йэ, йи"
+-- new words by concatenating a suffix at the end of a word, if no conflict with other lemmas:
+«i, e, d, q, r, k, a, x, n» = words «i, e, d, qan, er, ak, sa, ix, nx»   //some are already added to dictionary
 -- ways to separate words:
 • vd vd Fx Fx vd   //spaces (standart)
 • vd.vd.Fx.Fx.vd   //fused dots (better for saving space or highlighting affix words)
@@ -117,14 +119,15 @@
 a == [s] noun clarifier (WHAT) @ уточнитель существительного (ЧТО), Именительный Падеж   //at sentence start works as Russian "а"
 i == [s] plural(2+) clarifier @ множественная форма   ^ en   //at sentence start works as '&'
 . concatenate «i», if there is no conflict with other lemmas
-. ?: concatenate «s» if word ends with «i» and no conflict with other lemmas
 u == [s] affected object clarifier @ объект воздействуемости, Винительный Падеж   ^ wbj, uf, iu   //at sentence start works as "uf"
-e == [s] pronoun clarifier @ прилагательное (КАКОЙ)   ^ yf   //at sentence start works as discontent
+e == [s] pronoun clarifier @ прилагательное (КАКОЙ)   ^ yh   //at sentence start works as discontent
+. concatenate «e», if there is no conflict with other lemmas
 o == [s] adverb clarifier (HOW) @ наречие (КАК)   ^ ob //at sentence start works as "ob"
 s == [s] affiliation (WHOSE), []'s @ прилагательное-притяжатель, принадлежность (ЧЕЙ)   ^ et   //at sentence start works as "et"
 is = "i s" == [s] plural affiliation, []s' @ множественный притяжатель
 iu = "i u" == [s] plural affected object clarifier @ множественный Винительный Падеж
 d == [s] accomplished, -ed @ свершённый   ^ da   //at sentence start works as "da"
+. concatenate «d», if there is no conflict with other lemmas
 qa == [s] long-lasting action, -ing, doing @ продолжительное действие   ^ ix
 ai == [s] imperative mood @ повелительное наклонение
 aq == [s] property owner @ обладатель свойства, -ач
@@ -136,6 +139,7 @@ ici = "ic i" == [s] (plural)
 ik == [s] small one, diminutive @ уменьшитель   ^ qan, iki
 iki = "ik i" == [s] (plural)
 qan == [s] affectionate form @ ласковая форма   ^ sma, ik //Jp etymology
+. concatenate «q», if there is no conflict with other lemmas
 sma = sama == [s] respectful form @ уважительная форма   ^ qan, sr, mf //Jp etymology
 er == [s] the performer who does it, the profession, the follower of the teaching @ исполнитель который это делает, профессия, последователь учения   ^ eri
 . concatenate «r», if there is no conflict with other lemmas
@@ -146,6 +150,7 @@ aki = "ak i" == [s] (plural)
 ek == [s] the object|subject that the action is directed at @ объект|субъект, на который действие направлено   ^ eki
 eki = "ek i" == [s] (plural)
 sa == [s] feminitive, turns into a female @ феминитив, превращает в женщину   ^ gl, sae
+. concatenate «a», if there is no conflict with other lemmas
 sae = "sa i" == [s] (plural) feminitive @ множественный феминитив
 ov == [s] masculinitive, turns into a male @ маскулинитив, превращает в мужчину   ^ mn, ovi
 ovi = "ov i" == [s] (plural) masculinitive @ множественный маскулинитив
@@ -159,9 +164,10 @@ xn == [s] a resident, an inhabitant of this place @ житель, обитатель этого мест
 xni = "xn i" == [s] (plural) residents @ множественные жители
 "Ru xni, Eng xni" == Russians, British @ россияне, англичане
 nx == [s] place for this, -ery, -ory, -arium @ место для этого, -ня
+. concatenate «n», if there is no conflict with other lemmas
 ls == [s] not having it, not being able to do it, -less @ не имеющий этого, не способный на это
 ib == [s] having it, being able to do it, -able @ имеющий это, способный на это
-yf == [s] a softened sign, a bit of @ смягчённый признак   ^ e
+yh == [s] a softened sign, a bit of @ смягчённый признак   ^ e
 j = jc == [s] (emphatic logical particle), after all, indeed, actually, you know @ же (логическое выделение), ведь  ^ uc, blx
 
 
@@ -263,8 +269,8 @@ ra = "= " == [l] equals to, assigning equality @ равняется, присваивающее равно 
 "n ra" = "¬= " = "n ra" == [l] not equals to @ не равно, неравный, неравно
 moq = > = "mo qm" == [l] more than @ больше чем
 esq = < = "es qm" == [l] less than @ меньше чем
-moqr = moqra = ">= " = "moq qi ra" == [l] greater than or equal to @ больше или равно
-esqr = esqra = "<= " = "esq qi ra" == [l] less than or equal to @ меньше или равно
+moqr = moqra = ” = ">= " = "moq qi ra" == [l] greater than or equal to @ больше или равно
+esqr = esqra = “ = "<= " = "esq qi ra" == [l] less than or equal to @ меньше или равно
 apor = apora = "apo ra" = ~~ = Ѓ == [l] approximately equals to @ приблизительно равняется
 tjd = tojd = ‡ == [l] identity, identically, identical, equal for all values of the argument @ тождество, тождественно, тождественный, равный при всех значениях аргумента   ^ id, ekvi, ra
 kgr = kogr = ¦ == [l] congruent, equal but not in coordinates @ конгруэнтно, конгруэнтный, конгруэнтность, равен но не по координатам
@@ -426,12 +432,12 @@ qs = "q s" == belonging to someone of unknown gender @ принадлежащий кому-то неи
 qu = "q u" == impact on someone of unknown gender @ воздействия на кого-то неизвестного пола   ^ hiu, ciu
 qo = "k q" == to someone of unknown gender @ к кому-то неизвестного пола   ^ hio, cio
 
-hi = "q mn" == he @ он   ^ q
+hi = "q ov" == he @ он   ^ q
 hw = his = "hi s" == his @ (владения) его, егошний   ^ qs
 hiu = "hi u" == him @ (кого) его   ^ qu
 hio = "k hi" == to him @ (кому) ему   ^ qo
 
-ci = "q gl" == she @ она   ^ q
+ci = "q sa" == she @ она   ^ q
 hy = cis = "ci s" == (whose) her @ (владения) её, еёшный   ^ qs
 ciu = "ci u" == (on whom) her @ (кого) её   ^ qu
 cio = "k ci" == to her @ (кому) ей   ^ qo
@@ -524,7 +530,7 @@ azu = "az u" == @ другого
 nhw = nihw = "nhu u" == @ никого ничего
 
 -- ownership pronouns @ притяжателя (ЧЕЙ) & Родительного Падежа:
-qy = qei = uos == whose @ чей
+qy = qei = uos == whose @ чей, чья, чьё
 sxi == -self's @ свой, свои
 eos = "et s" == this one's, herewith @ (владения) этого, при этом
 etis = "eti s" == these one's @ (владения) этих
@@ -732,6 +738,7 @@ ass == access @ доступ, доступный, доступно, обращаться   ^ pu
 pxs = pasi == passive, dormant @ пассивный, пассивка, пассивно, бездествовать, бездействие, бездуйствующий
 api = apli == apply, inflict, inflicted @ наносить, нанесённый, применять, применить, применённый, применение   ^ prik
 ed == add @ добавлять, добавить, добавленный, добавочный, добавка   ^ pw, dop
+"ed t" == extend, prolong, extension @ продлить, продлевать, продление, продлёнка
 sim == similar, similarity, like @ подобный, подобно, подобен, подобие, похожий, похож, похоже, схожий, уподобиться   ^ sii, imu, emu, ipo, tu
 imu = simu == simulation, simulator @ симуляция симуляционный симулировать, симулятор   ^ emu
 emu = emul == emulation, emulator @ эмуляция, эмулировать, эмулятор   ^ sim
@@ -1181,7 +1188,7 @@ wedr == "wj aedr" regular polyhedron @ правильный многогранник
 smm = simm == symmetry, symmetrically, symmetrical @ симметрия, симметрично, симметричный
 ark == arc, arch @ арка, дуга, ребро направленного графа   ^ grf, akad
 elik = spiral == spiral, helix @ спираль, спиральный, закручивать в спираль
-dra = houl == hole @ дырка, дыра, дырявый, отверстие   ^ nor
+hol = dra = houl == hole @ дырка, дыра, дырявый, отверстие   ^ nor, hal
 eo = est = mest == place, spot @ место, местный, разместить, размещать   ^ sat, sp, lc
 sp == space @ пробел, пространство, место, пространственный   ^ eo, sep
 eoq = apas = "eo aq" == capacity, accommodate @ вместить, вместимость, вместительность, вместимый, ёмкость
@@ -1530,7 +1537,7 @@ efl = refl == reflect, reflection, reflexion @ отражение, отражённый, отражающий
 efr = refr = refra == refraction, refracting @ преломление, преломять, преломляющий
 ifr = difr = difra == diffraction @ дифракция
 golo == hologram, holographic @ голограмма, голографический
-galo == halo @ гало
+galo == halo @ гало, ореол
 --
 au = zvu = zvuk == audio, sound @ звук, звучать, звучащий, звучание, звучит, звучно, аудио, ау, аукнуться, аукнеться, откликнуться   ^ oau
 auk = "au ak" == speaker, audio device @ динамик
@@ -1551,6 +1558,7 @@ mfl = mafl == muffle @ глушить, заглушить, глушение, глушилка
 eho == echo @ эхо
 ton == tone @ высота звука, тональность тональный, тон
 "1ton" == монотонный @ монотонный
+qqk = qqik = klik == click, snap @ щелчёк, щёлкать, щёлкающий, клик, кликать, кликающий
 --
 ele = elq == electricity, electric, electrify @ электричество, электрический, электрифицировать   ^ elk, zip
 qj = qaj = qarj = zar = "gt ng" == charge @ заряд, зарядить, заряжать, зарядка, заряженный, заряжено
@@ -1576,8 +1584,8 @@ ernk = eronk = "ern ak" == armature, reinforcement @ арматура, укрепляющее устро
 om = rzi = rezi = kontr == resist, resistance, withstand, confront, counter @ сопротивление, устойчивость, сопротивляться, устойчивый, устойчиво, устоять, сопротивление, противостоять, устойчив
 omk = "om ak" == resistor @ резистор
 ond = kond == conduct, conductivity, conducting @ проводить, проводимость, проводящий, вести, провести
-ondk = "ond ak" == conductor device @ кондуктор
-ondr = "ond er" == conductor worker @ проводник (работник)
+ondk = "ond ak" == conductor device @ проводник (устройство), кондуктор
+ondr = "ond er" == conductor worker @ проводник (работник), кондуктор
 diy = diod == diode @ диод, диодный
 vxk = vxzk == viscosity @ вязкость, вязкий, тягучесть, тягучий
 lpk = lipk == sticky, viscosity @ липкий, липко, липнуть, липкость, слипаться
@@ -1659,6 +1667,7 @@ fayk = "ac tos ak" == flamethrower @ огнемёт
 act = actu = actuck = "ac tuc ak" == fire extinguisher @ огнетушитель
 plm = plam = flam = fleim == flame, blaze @ пламя (языки его), пламенный, пламенеть, пылать, пылающий   ^ ac
 byn = byrn == burn @ гореть, горение, горящий   ^ ac, jq, sgo
+tlt = tlqq == smolder, smoldering @ тлеть, тление, тлеющий   ^ tln
 jq = jig = cq = "ef byn" == fully burn @ жечь, сжигать, сжечь, сжигание, сжигающий, сожжённый, сожжён   ^ jg
 sgo = "ef byn" == combustion @ сгорание, сгореть, сгорающий
 igi = igni == ignite, ignition, flammable @ воспламенять, воспламенение, воспламеняемый, возгорание, возгорае   ^ ac
@@ -1721,7 +1730,7 @@ pbl = "ll rok" == pebble, small stone @ галька, камешек, маленький камень
 ybl = kobl = bulj = "xr rok" == cobble, cobblestone, large stone @ булыжник, крупный камень
 lun = vlun = valun = "ogr rok" == boulder, huge stone @ валун, огромный камень
 and = sand == sand, sandy @ песок, песчаный
-andx = "and nx" == sandbox @ песочница
+andn = "and nx" == sandbox @ песочница
 gvl = gavl = gravl == gravel, macadam @ гравий, щебень, щебёнка, щебенка, макадам, крупный песок
 ys == earth, geo, terra @ земля, терра, тэрра, гео   ^ soi, suc, qys
 ysk = yska = "ys ak" == dugout @ землянка, блиндаж
@@ -2109,7 +2118,7 @@ ngr = negr = niga == nigger, negro, ebony @ негроид, негр, нига, нигера
 tsg = tsgn = tsigan == gypsy @ цыган, цыганский
 hos = hors == horse @ лошадь (любого пола)    ^ poni, hosi, jrb, hosa, foal, fili, kolt
 hosi = "hos i" == horses @ лошади, кони
-hosx = "hos nx" == horse stable @ конюшня   ^ xtx
+hosn = "hos nx" == horse stable @ конюшня   ^ xtx
 jrb = jrbs = stalion = "hos mn" == stallion, male horse @ жеребец, конь
 hosa = "hos sa" == mare, female horse @ кобыла, лошадь
 foal = "hos yn" == foal @ жеребёнок, дитя лошадоподобного
@@ -2282,7 +2291,7 @@ lbx = svan == swan @ лебедь, лебединый, лебяжий
 gus == goose @ гус, гусь, гусиный, гусыня
 pql == bee @ пчела, пчелиный   ^ pqi
 pqi = pqli = "pql i" == bees @ пчёлы, пчелы
-pqlx = "pql nx" == apiary @ пасека  ^ ule
+pqln = "pql nx" == apiary @ пасека  ^ ule
 osa == wasp @ оса, осиный
 ovl == owl @ сова, совиный
 filin == eagle owl @ филин
@@ -2338,7 +2347,7 @@ rak = omar == cancer, lobster @ рак, омар, раковый   ^ onko
 -- fauna body parts:
 hq = haq == hatch (from an egg, shell) @ вылупление (из яйца, скорлупы), вылупиться, выбраться
 hql = haql == hatchling @ вылупившийся из яйца детёныш
-hqx = "hq nx" == hatchery, incubator @ инкубатор
+hqn = "hq nx" == hatchery, incubator @ инкубатор
 okon = kokon == cocoon @ кокон   ^ pod
 pupa = krizi == chrysalis, pupa, pupal @ куколка, кризалис
 sliz == slime, mucus @ слизь, склизкий, склизко   ^ slag, slaim
@@ -2391,8 +2400,8 @@ voi == howl, wail, yowl @ вой, выть, воющий
 jva == munch, chew, masticate @ жевать, жвало, жующий, пережёвывать, пережевывать
 qf = qaf = qav = qafk = qavk == slurp, chomp, champ, chaw @ чавкать, чавкание, чавкающий
 gnu = gnau == gnaw @ глодать, обгладывать, обглодать
-laf = hoh = rjk == laugh @ смех, смеющийся, смеяться, хохот, хохотать, хохочущий, ржать   ^ h, jk
-"laf nx" == laughing stock @ посмешище
+laf = hoh = rjk == laugh @ смех, смеющийся, смеяться, хохот, хохотать, хохочущий, ржать   ^ h, jk, lafn
+lafn = "laf nx" == laughing stock @ посмешище
 mwn = moan == moan, groan @ стон, стонать, стонущий
 vain = skul == ныть, ноющий, скулить, скулящий @ whine   ^ nud
 "vain e" == whiny @ плаксивый
@@ -2488,7 +2497,7 @@ ldo = ldoc = ldon == palm @ ладонь   ^ hn
 ldoi = ldoci = ldoni = "ldo i" == palms @ ладони, ладошки
 pxst == wrist @ запястье
 laz = klib == climb @ лазить, лазать, лезть, залезать, взбираться, взобравшийся, подъём (на гору), восхождение
-ulaz = "ut laz" == get out @ вылазить, вылезать, вылезти, вылезший
+ulaz = "ut laz" == get out, вылазка @ вылазить, вылезать, вылезти, вылезший, вылазка
 lazq == climber @ скалолаз, альпинист, альпинистский
 taq == touch @ трогать, трогательно, трогательный, касание, касаться, касается, коснуться, касающийся, прикасаться, прикоснуться, прикосновение, осязание   ^ tap
 taqa = "taq ak" == tangent @ касательная, касательный, касательно   ^ tg
@@ -2578,7 +2587,7 @@ ozm = orzm = "org sis" == organism @ организм
 ofl = ofal = "nut org" == offal, giblet, giblets @ внутренний орган, потрох, потроха, субпродукт   ^ sofl
 sofl = sofal = "suh ofl" == dried giblets @ сушёные потроха
 mzg = mozg == brain, cerebral @ мозг, мозги, мозговой brain
-sno = zz = zzz = slip = spat == sleep, slumber @ спать, спящий, уснуть, уснул, уснувший, засыпать   ^ son, onx, drm
+zz = sno = zzz = slip = spat == sleep, slumber @ спать, спящий, уснуть, уснул, уснувший, засыпать, отбой   ^ son, onx, drm
 "ina sno" == get enough sleep, well-rested @ выспаться, высыпаться, выспавшийся
 son == drowsiness sleepiness somnolence drowse somnolency oscitancy soporific @ сонливость, сонный, сонно, зевота, усыплять, усыпляющий, усыпляюще, усыпление   ^ sno, tai
 sonx = "son aq" == sleepyhead @ соня
@@ -2835,8 +2844,10 @@ kuni == cunnilingus @ кунилингус, куни
 # kinship
 fa = fama == family @ семья, семейный, род, родовой
 fax = fami == surname @ фамилия, фамильный   ^ fx
-mam = mama = maz = mamka == mother, mom, mum, mama, mommy, mamma, mummy, mam @ мама, мать, матушка, мамаша, мамочка
-pap = papa = faz = papka = batx == father, dad @ папа, отец, отче, батя, батюшка, папочка
+prn = rodr = "rod er" == parent, parental @ родитель, родительский   ^ mam, pap
+prni = "prn i" == parents @ родители
+mam = mama = maz = mamka = "prn sa" == mother, mom, mum, mama, mommy, mamma, mummy, mam @ мама, мать, матушка, мамаша, мамочка
+pap = papa = faz = papka = batx = "prn ov" == father, dad @ папа, отец, отче, батя, батюшка, папочка
 otq == patronymic @ отчество
 jn = jna = vaif = vaifu == wife @ жена, супруга
 muc = muj = hasb == husband @ муж, супруг
@@ -2847,8 +2858,6 @@ grum == groom @ жених, грум, fiance   ^ fyns
 brai = braid == bride, fiancee @ невеста   ^ fyns
 fyns = fions == groom or bride, fiance or fiancee @ жених или невества   ^ grum, brai, gf
 eng = engj == engage, engaged @ помолвка, помолвить, помолвлен, обручение, обручиться, обручить, обручен, обручён
-prn = rodr = "rod er" == parent, parental @ родитель, родительский
-prni = "prn i" == parents @ родители
 krr = opkr = opkun = "kr er" = "opk er" == guardian (parental) @ опекун, опекунский
 kin = rlx == kin, relate, relative, relatives @ родственный (к субъектам), родственник, родственно, роднить, родня, родной   ^ nti
 rdk = poto = "rod ek" == descendant, offspring, scion, progeny @ потомок, потомственный, потомство
@@ -2914,7 +2923,7 @@ lom = brik == break, destroy, destruct @ ломать, разрушить, сокрушённый, крах, р
 dsr = "ef lom" == broke, broken, collapse @ сломать, сломанный, поломать, разрушенный, разрушать, уничтоженный, уничтожено, коллапс, обрушить, обрушиться, обрушеие   ^ krc, orq, brc, mll
 ruin == ruin @ руины, руинный
 izn = izno = iznos == wear and tear, worn, wear @ износ, изношенный, изнашиваться, изнашивать
-mll = grind == grind @ мелить, молоть, растереть, растерать   ^ mlx, dsr, qop
+mll = grind == grind @ мелить, молоть, растереть, растерать   ^ mln, dsr, qop
 srw = sruk == struct @ структура, структурный, структурировать, строение   ^ isrw, kpz, fom, ild
 dut == blow @ дуть, дуновение, дующий   ^ zf, ifl
 aval = avala == avalanche @ лавина, лавинообразный, обрушаться
@@ -2990,9 +2999,10 @@ op = ope = opn == open, opening, unlock @ открыть, открытие, заставка фильма   ^
 opo = "op o" == openly, frankly, candidly, frank @ открыто, откровенно, откровенный, откровенничать, честно говоря   ^ fea
 kz = cat = "di op" == shut, close, pent @ закрыть, закрывать, крыть, крытый, выключать (питание), выключить
 kzd = ctd = catd = "kz d" == closed, shuted @ замкнутый, закрытый    ^ rin
+uvl = uvlap == overlap @ крыть, перекрыть, перекрывать, перекрытый, перекрывающий   ^ kav
 rvi == reveal @ раскрывать, раскрыть, раскрытый   ^ ekpo, op
-on == turn on @ включать, включить, вкл, включение   ^ off
-off == turn off, shut down @ выключать, выключить, выкл, отключить, отключить, выключение, отключение   ^ on
+on = tyron == turn on @ включать, включить, вкл, включение   ^ off
+yf = off == turn off, shut down @ выключать, выключить, выкл, отключить, отключить, выключение, отключение   ^ on, ff
 zgj == blockade, obstruct, block @ загораживать, загородить, загорожено, заграждение, заградительный, заграждать   ^ blo, brr, fns
 blo = blok == block @ блок, блокировать, блокировка, заблокировать, заблокированный, заблокировано   ^ brr, zgj
 opt == optimal, optimization @ оптимальный, оптовый, оптимизация, оптимизировать
@@ -3006,7 +3016,7 @@ xqi = pazi = sloti = "xq i" == slots @ слоты, ячейки, пазы
 unl = tunl == tunnel @ тунель, туннель, тоннель
 pas == pass @ пропуск, пройти через охрану, проходить   ^ pso, psg, paw, pasr
 pasr = "pas er" == passer, passerby @ прохожий, проходящий
-pasx = "pas nx" == checkpoint @ проходная, КПП, контрольно-пропускной пункт
+pasn = "pas nx" == checkpoint @ проходная, КПП, контрольно-пропускной пункт
 svq = sviq == switch @ переключатель, переключать, выключатель, рубильник   ^ btn
 hl = hld = hold = drj = derj == hold @ держать, держаться, держится, держащий, держа, держание, удерживать, удержание, удержать, удержанный   ^ kip
 hru = hrus == crunch, crisp @ хрустящий, хрустеть, хрусткость, хрусь
@@ -3015,7 +3025,7 @@ hlw = hlwp == skvic == squish, slosh @ хлюпать, хлюпание, хлюпающий, хлюпик, скв
 gap == gap @ разрыв, зазор   ^ brc
 brc = brec == breach @ брешь   ^ gap, dst
 vrt = vrat = geit == gate @ ворота, врата, калитка   ^ clz
-clz = clwz = vrtnx = "vrt nx" == gateway @ шлюз, подворотня
+clz = clwz = vrtn = vrtnx = "vrt nx" == gateway @ шлюз, подворотня
 gb = gob = kusk = lump == lump, ball, wad, clot, gob @ ком, комок, комкать, комкаться, кусок, кусочек   ^ ct, sls, puq, klq, qnk
 gbi = gobi = kuski = "gb i" == lumps @ комки, комочки
 sls = slais == slice @ ломтик, слайс   ^ gb
@@ -3047,6 +3057,7 @@ katk = "kat ak" == cutter @ резак
 sqn = seq == secant, section @ секция, сечь, секущий, секущая, секуще, сечение, отсекать   ^ kat, skc, fsq
 trq = triq == trim, shear @ подстригать, стрижка, постриженный, стричь, стриженный, обтесать, обтёсанный   ^ kat
 kaq = pomp == pump, level up @ помпа, насос, помповый, качаться, качать помпой, повышать уровень, кач, качка
+lwft == backlash, gap @ люфт
 krp = kirp == brick @ кирпич, кирпичный
 kuq = stak == heap, stack, mow, pile @ куча, стог, груда, кипа, стопка, стэк, стак
 kdm = kodom == condom @ презерватив
@@ -3134,11 +3145,12 @@ fidl == fiddle, trifle @ теребить, возиться
 jim == press @ нажимать, нажатый, нажатие, жать, нажать   ^ sji, jmb, jmk
 jmb = jimb = "jim ib" == pressure mechanism @ нажимная, нажимной
 jmk = jimk = "jim ak" == press device @ пресс, прессовать, спрессовывать  ^ jim
-sji = sjim == compress, squeeze @ сжать, сжимать, сжатие, сжатый, ужать   ^ jim
+sji = sjim == compress, squeeze, clench @ сжать, сжимать, сжатие, сжатый, ужать   ^ jim, isj
+isj = isji = "di sji == unclench @ разжать, разжимать, разжатие
 oyv == distort, distortion @ коверкать, коверкание, исковерканный, искажать, искажение, искажённый   ^ yv
 plf = plaf == platform @ платформа, platform
 dup = dab == duplicate, dubbing, to duplicate, dubbed @ дубликат, дубляж, дублировать, дублирован, дубль   ^ kpi
-sor = trc = musor = drxn == litter, rubbish, garbage, trash @ сорить, засорить, мусор, мусорить, мусорный   ^ sork, dsp
+sor = trc = msr = musor = drxn == litter, rubbish, garbage, trash @ сорить, засорить, мусор, мусорить, мусорный   ^ sork, dsp
 sork = trck = "sor ak" == trash can, bin, wastebasket @ мусорная корзина   ^ dmpk
 sorp = sorpp = "sor pp" == waste paper, wastepaper @ макулатура
 dsp = disp == disposal @ утилизация, утилизировать, удаление   ^ sor
@@ -3233,9 +3245,9 @@ fodq = "fod aq" == folding, collapsible @ раскладной, раскладушка   ^ ljk
 tuk == tuck, thrust, slip, shove @ подгибать, подворачивать, подворот, подоткнуть, подвернуть, подогнуть, засовывать, засов, подсовывать, засунуть, 
 fwj == fusion, fused, fuse @ слияние, слиять, слитный, сплавлять   ^ syz
 frj = fraj = hrup == fragile, brittle @ хрупкий, хрупко
-liy == pour, shed @ лить, литьё, наливать, налив, наливай, отливать, залить   ^ hyp, liyx
+liy == pour, shed @ лить, литьё, наливать, налив, наливай, отливать, залить   ^ hyp, liyn
 liyk = "liy ak" == watering can, leica @ лейка
-liyx = liynx = "liy nx" == foundry @ литейная, литейный цех
+liyn = liynx = "liy nx" == foundry @ литейная, литейный цех
 cpr = cpre == spray @ спрей, распылять, распылить, распыление, брызги, брызгать, брызга, разбрыгивать   ^ ers, cprk
 cprk = "cpr ak" == sprayer @ пульверизатор
 hyp = sipa == pour, strew @ сыпать, сыпаться, сыпучий, просыпать   ^ liy, yhl
@@ -3303,6 +3315,7 @@ zg = zgo = zagon == corral, drive someone into, driven @ загон, загонять, загнан
 atq = ataq == attach, fasten @ прикрепить, прикреплять, приделать, приделывать, прикрепление, прикреплённый, приделанный
 ctp = ctap = ctamp == stamp @ штамп, штамповать, штамповка, штампованный   ^ foj
 avil = anvil == anvil @ наковальня
+cunt == shunt @ шунт
 
 
 # clothing
@@ -3328,8 +3341,8 @@ cyr = ciqr = "cy er" == seamster @ швея
 cof = cov == seam @ шов, стежок
 vif == weave @ плести, плетение, плетущий, ткать, вплетать, сплетать   ^ xrn, vifr
 vifr = tkaq = "vif er" == weaver @ ткач, ткачиха
-lwn = laun == laundry (items), lavare, lave @ бельё для стирки, стирать одежду
-lwnx = launx = "lwn nx" == laundry (place) @ прачечная
+lwn = laun == laundry (items), lavare, lave @ бельё для стирки, стирать одежду   ^ lwnn
+lwnn = launn = "lwn nx" == laundry (place) @ прачечная
 yly = bely = linn == linen @ постельное бельё, бельевой
 yko = maki = kosmt == makeup, maquillage, cosmetic, cosmetics @ макияж, косметика, косметический, наносить макияж   ^ grim
 grim == greasepaint, makeup, war-paint @ грим, боевая раскраска   ^ maki
@@ -3464,7 +3477,7 @@ rinq == chainmail @ кольчуга
 pogn = pogon == shoulder pad, scapular @ наплечник, погон
 brtl == shoulder strap @ бретелька, бретельки
 popn = popon == pompon, bob @ помпон
-rlok == keychain @ брелок   ^ kulo
+rlok == keychain, trinket @ брелок, безделушка   ^ kulo
 bdj = badj == bandage @ повязка, повязать, повязочный   ^ bint, bada
 bada = badana == bandana @ бандана
 znk = znak = "zn ak" == badge @ значок
@@ -3496,8 +3509,8 @@ lmp = lamp == lamp @ лампа, ламповый
 bulb = "gls lmp" == light bulb @ стеклянная лампа
 gilx = gilxda == garland @ гирлянда
 bkt = bakt == bucket @ ведро
-tua = poti == toilet bowl, potty @ туалет в смысле унитаз, ночной горшок   ^ tual
-tuar = tual = tuax = sotir = "tua rum" = "tua nx" == toilet, outhouse @ комната с туалетом, флигель, уборная, сортир
+tua = poti == toilet bowl, potty @ туалет в смысле унитаз, ночной горшок   ^ tuan
+tuan = tuar = tual = tuax = sotir = "tua rum" = "tua nx" == toilet, outhouse @ комната с туалетом, флигель, уборная, сортир
 pisk = "pis ak" == urinal, pissoir @ писсуар
 duc == shower, douche @ душевой, обливание, обливать, обливающий, обливаться
 tub = vana == bath tub, bathtub @ ёмкость для купания, ванная, ванночка
@@ -3678,6 +3691,7 @@ halv = halva == halva @ халва
 xs = mxs = mit == meat, flesh @ мясо, мясной, плоть, плотский   ^ sxs
 sxs = smxs = "suh xs" == dried meat @ сушёное мясо
 farc == mince @ фарш
+skab == scab @ струп, короста, парша
 cck = cack = kbab == barbecue, shashlik, kebab @ шашлык, кебаб, барбекю   ^ jar
 stuf = naqi == filling, stuffing, stuff @ начинка, начинять, начинённый
 topi == topping @ топпинг, присыпка
@@ -3799,7 +3813,7 @@ lnq = lanq == lunch (any time) @ ланч, лёгкий перекус в любое время
 
 
 # vehicles
-vkl = vikl = viak = viakl = "kri ak" == vehicle, carriage @ транспортное средство, автомобиль, транспорт   ^ kar
+vkl = vikl = viak = viakl = "kri ak" == vehicle, carriage @ транспортное средство, автомобиль, транспорт   ^ kar, vkn
 eha = ieha = ezd = iezd = raid == ride, driving @ поездка, езда, проезд, ездить верхом или в транспорте, ехать, катать, кататься, катание   ^ trv
 "eha uv" == run over @ переехать
 ehai = "eha ai" == order to start driving @ поезжай, ехай
@@ -3827,7 +3841,7 @@ psj = pasj = pasjr == passenger @ пассажир   ^ psg
 ift = drift == drift @ дрейф, дрейфовать, плыть по течению, двигаться по инерции
 vsa = raidr = "raid er" == rider, equestrian, horseman @ наездник, всадник, ездок
 kar = taqk = taqka == car @ машина, тачка, легковушка, маленький пассажирский вагончик, легковой автомобиль   ^ mh, vkl
-vkx = vklx = "vkl nx" == vehicle park, parking lot @ парковка, паркинг, парковать, парковочное место, парковаться, припаркованный   ^ yrk
+vkn = vkln = vkx = vklx = "vkl nx" == vehicle park, parking lot @ парковка, паркинг, парковать, парковочное место, парковаться, припаркованный   ^ yrk
 sdan = sedan == sedan @ классическая четырёхместная машина, седан
 kupe == coupe @ короченная двудверная машина, купэ
 hqbk == hatchback @ машина с горбатым кузовом, хэтчбек, хэтчбэк
@@ -3879,6 +3893,7 @@ zpln = zplin == зеппелин, zeppelin @ дирижабль с жёстким каркасом
 baln = balun == balloon @ воздушный шар
 aes = aest = aestat == aerostat, balloon @ аэростат
 nak = knn = kren == roll, tilt @ крен, крениться, накреняться, накрениться, накренять, накренить, наклон, наклонить
+vraj = viraj == wingover, banked turn, 360° turn @ вираж, разворот на 360°
 
 -- sea transport:
 svi = svim == swim, swiming @ плавать, плавание, плавающий, плыть, плывущий
@@ -3963,13 +3978,13 @@ srag == struggle @ борьба, бороться   ^ bat
 mrc = marc == march, hike @ маршировать, маршировка, походное движение
 pws = post == post @ пост, постовой, должность, должностной, поститься
 arm = armi == army @ армия, армейский
-dwt = dwti = viji == duty, vigil @ долг, обязанность, служба, дежурный, дежурить, дежурство
+dwt = dwti = viji == duty, vigil @ долг, обязанность, служба, служебный, дежурный, дежурить, дежурство
 rmo = rmor == armor, to book @ броня, броневой, бронированный, бронировать, доспех, забронировать
 rmoj = "rmo dj" == armored clothing @ броник, бронированная одежда
 "rmo jilt" == armored vest @ бронежилет
 rmk = rmok = "rmo ak" = "rmo viak" == APC (armored personnel carrier) @ БТР, бронетранспортер
 okop = trnq == trench @ окоп, траншея, траншейный
-kav = kavr == cover @ укрытие, покрыт, покрытие, покрывать, укрывать, укрыто, покрыто, обложка
+kav = kavr == cover @ укрытие, покрыт, покрытие, покрывать, укрывать, укрыто, покрыто, обложка   ^ uvl
 bark = barik == barricade, barricado @ баррикада, баррикадировать   ^ brr
 brr = barr == barrier @ барьер, препятствие, препятствовать, препятсвующий   ^ barj, bark, blo
 barj = baraj == barrage @ заградительный огонь, лавина, поток  ^ brr, cval
@@ -3981,7 +3996,7 @@ gux = trak == track (transport) @ лентовая дорожка, танковая гусеница, гусеничны
 cut == shoot, fire @ стрелять, стрельба, стреляющий   ^ cot, tir
 cutr = "cut er" == shooter @ стрелок
 "cut rtm" == rate of fire @ скорострельность, темп стрельбы
-tir = cutx = "cut nx" == shooting gallery, shooting range @ стрельбище, тир
+tir = cutn = "cut nx" == shooting gallery, shooting range @ стрельбище, тир
 cot = "cut ek" == shot @ выстрел, выстреливаемый   ^ ftoc, hit
 uda = udar == try to hit, swung, blow, beat @ ударить, удар, бить, ударенный, бей
 hit = bam = bamp == hit, bump @ попадание, попавший, попало, попадать    ^ bac, cot, hur
@@ -4057,9 +4072,9 @@ rwfr = provr = "rwf er" == provider @ провайдер, провидер
 wpl = plen == captive, captivity, captivate @ плен, пленный, пленить, поймать   ^ kap
 snik == sneak @ скрытность, красться, прокрасться, скрытный, затесаться   ^ hid, stls
 stls == stealth @ скрытый, скрытный, скрытно, скрытность, скрываться, втихомолку, стелс, стэлс   ^ hid, snik, iviz
-ziv == enlist, conscript @ вербовка, вербовать, заручаться, заручиться, призыв, призывать
+ziv == enlist, conscript @ вербовка, вербовать, заручаться, заручиться, призыв, призывать   ^ zivk, zivn, zivr
 zivk = "ziv ek" == conscript @ призывник (подлежащий призыву)   ^ rku
-zivx = zivnx = "ziv nx" == ?military enlistment office @ военкомат
+zivn = zivnx = "ziv nx" == ?military enlistment office @ военкомат
 zivr = "ziv er" == recruiter @ рекрутёр
 trul == patrol @ патруль, патрулировать, патрулирующий, патрулирование
 abra = ambra == embrasure @ амбразура
@@ -4146,7 +4161,7 @@ rba = arba = arbal = "krs bou" == crossbow @ арбалет
 aks == axe, ax @ топор   ^ caks, haqt
 caks = "cst aks" == poleax, poleaxe @ секира, топор на древке
 qop = slc == cut, hew, hack, slash @ рубить, рубленый, рубка   ^ mll, qopk, qops, pny
-qopk = "qop ak" == mincer @ мясорубка, рубилка    ^ mlx
+qopk = "qop ak" == mincer @ мясорубка, рубилка    ^ mln
 pny = pnyk = "qop lf" == stump, stub @ пень, пенёк, обрубок, огрызок
 haqt = tomaha = tomahauk == tomahawk, hatchet @ топорик   ^ aks
 duba = bita == club, bat @ дубина , бита   ^ klwc
@@ -4293,6 +4308,7 @@ utzm = "ut zm" == autism, autistic @ аутизм, аутистический
 sdm = sdom = sidom == syndrome @ синдром
 vxl == languid, sluggish, slack @ вялый, томный   ^ drxb, oft
 drxb == flaccid @ дряблый   ^ vxl
+szm = spzm = spazm == spasm, spasmatic @ спазм, спазматический, судорога, судорожный
 
 
 # government
@@ -4362,7 +4378,7 @@ knf = konf = konfa == conference, parley @ совещание, конференция   ^ sov
 sov = sovt = sovet == council, soviet, rede @ совет, советский   ^ knf, sovr
 sovr = "sov er" == advisor, adviser, counselor, counsellor, counsel @ советник
 myr = meyr = burgm = "iti cf" == mayor, burgermeister, burgomaster @ мэр, бургомистр
-myrx = "myr nx" == city hall, mayor place @ мэрия
+myrn = "myr nx" == city hall, mayor place @ мэрия
 obi = obei = "nxt ord" == obey, submit @ подчиняться, подчинение, подчинённый, повиновение, слушаться   ^ obb
 obb = obib = "obi ib" == obedient, obediently, obedience @ послушный, послушно, послушание, покорный, покорно, покорность, покоряться, покориться   ^ nbb, kyk
 nbb = nobb = "n obb" == defiant, disobedient @ непокорный, непослушный, непослушание   ^ noti
@@ -4563,7 +4579,7 @@ kqvx = "kqv ix" == nomadity @ кочевничество, кочевье
 krz = kriz == crisis @ кризис, кризисный, криз
 icp == inspection inspect @ инспекция инспектировать осмотр осматривать проверять   ^ icpr
 icpr = "icp er" == inspector @ инспектор
-usu = usug = "syv ek" == service @ услуга, услужить, услужливый, сервис, сервисный   ^ zkz
+usu = usug = "syv ek" == service @ услуга, услужить, услужливый, сервис, сервисный, служебный   ^ zkz
 zkz = zakaz = "ask usu" == order (ask for service) @ заказ, заказывать, заказной
 
 -- professional people   //seek "er" for others
@@ -4588,11 +4604,11 @@ apa = napa == partner, affilate, sidekick @ напарник, партнёр   ^ klg
 amg = impo = amogus == impostor, amogus (among us) @ самозванец, самозванный, импостер, амогус
 brb = barb == barber, haircutter, coiffeur, hairdresser @ парикмахер, барбер
 ruz = bruz == bruiser @ громила, здоровяк, брузер
-yx == prostitution @ проституция   ^ yv, yxr, ysx
+yx == prostitution @ проституция   ^ yv, yxr, yxn
 yxr = "yx er" == prostitute of any gender @ проститука любого пола   ^ ysa, yva
-ysa = "yx sa" == prostitute, hooker, doxy @ проститутка   ^ clw
+ysa = yxsa = "yx sa" == prostitute, hooker, doxy @ проститутка   ^ clw
 yva = "yx ov" == male prostitute @ мужчина занимаюийся проституцией    ^ clw
-ysx = bordl = "yx nx" == brothel, bordello @ бордель
+yxn = yxnx = ysx = bordl = "yx nx" == brothel, bordello @ бордель
 alfo = alfon == sugar relationship, being kept @ содержанство, жизнь за чужой счёт   ^ jigo
 jigo = alfor = "alfo er" == gigolo, kept man or woman @ содержанка, содержанец, жигало, альфонс   ^ ijd
 smi = "mas mdi" == press, mass media @ медиа, средства, массовой, информации, СМИ пресса
@@ -4774,13 +4790,13 @@ mdn = meidn = deva = "hg mnr gy" == maiden, a girl of elevated manners @ девица,
 Duq = Duqэ = Duqe == Duce @ Дуче, верховный лидер
 knh = kinh = tsr = tsar = gosu == king, tsar @ король, королевский, царь, царский, государь, государский   ^ emp, kix, rox, mrh
 kvn = kvin = tsra = tsrsa = "knh sa" = "tsr sa" == queen, tsarina, tzarina, czarina @ королева, царица, ферзь
-kix = kinx = tsrx = "knh nx" = "tsr nx" == kingdom, tsardom @ королевство, царство
+kix = kinx = tsrx = knhn = "knh nx" = "tsr nx" == kingdom, tsardom @ королевство, царство
 dwk == duke @ герцог, герцогский   ^ dws, dwq
 dws = dwsa = "dwk sa" == duchess @ герцогиня
-dwq = dwkx = dwknx = "dwk nx" == duchy @ герцогство
+dwq = dwkn = dwknx = "dwk nx" == duchy @ герцогство
 emp == emperor @ император, императорский   ^ knh, emsa, emx
 emsa = empsa = "emp sa" == empress @ императрица
-emx = empx = "emp nx" == empire @ империя, имперский
+emx = empn = "emp nx" == empire @ империя, имперский
 ric = risa = rits = ritsa = nait = cvale == knight, cavalier, chevalier @ рыцарь, рыцарский, шевалье, кавалер
 han == khan @ хан
 yno = kron = kraun == crown @ корона, коронный, короновать, крона
@@ -4791,7 +4807,7 @@ majb = "nb maj" == Majesty, great, grand, excellent, splendid @ величество, вели
 faro == pharaoh @ фараон   ^ kop
 knx = knxs = knxj == knyaz, prince @ князь, княжеский   ^ knxs, knxx
 knsa = knxsa == knyaginya, princess @ княгиня
-knxx = "knx nx" ==  princedom, principality @ княжество
+knxn = "knx nx" ==  princedom, principality @ княжество
 prs = pris == prince @ принц
 prsa = prisa == princess @ принцесса
 kfr = komr = "kf er" == commoner @ простолюдин, мещанин   ^ nbl
@@ -4838,12 +4854,13 @@ dizr = "diz er" == designer, constructor @ дизайнер, конструктор(чел), разработч
 tur = jorni == journey, tour @ путешествие, путешествовать, турне
 turr = "tur er" == tourist @ турист, туристический, туризм, путешественик   ^ kmpr
 suvn = "pm itm" == souvenir @ сувенир, сувенирный
+epdc == expedition @ экспедиция, экспедиционный
 squ = satw == statue @ статуя
 figw = stwt == figurine, statuette @ фигурка, статуэтка
 skit = satira == satire, skit, satirical, satiric @ сатира сатирический
 xrt = sprt = sport == sport @ спорт, спортивный, спортивно, заниматься, спортом
 gym == gymnastics, gymnastic @ гимнастика, гимнастический   ^ gim
-gim = "gym nx" == gym @ спортзал, качалка, гимнастический зал
+gim = gymn = "gym nx" == gym @ спортзал, качалка, гимнастический зал
 gymr = "gym er" == gymnast @ гимнаст
 atl == athletics, athletic @ атлетика, атлетичный, атлетично
 atlr = atlt = "atl er" == athlete @ атлет
@@ -4950,7 +4967,7 @@ epq = epqt = emeil = "elk pqt" == email @ электронная почта
 ltr = piso = "pqt ek" == postal letter @ почтовое письмо   ^ ely
 buk == book @ книга, книжный, книжно   ^ lib, tom, foli, lit, bklt, buki
 buki == books @ книги
-lib = "buk nx" == library @ библиотека, библиотечный
+lib = bukn = "buk nx" == library @ библиотека, библиотечный
 tom = "nom buk" == tome, numbered book @ том, номерная книга
 foli = "ojb buk" == folio @ фолиант
 lit == literature @ литература, литературный, лит
@@ -5005,7 +5022,7 @@ pbr = vinr = "pb er" == winer @ победитель
 luz == lose, loose @ проигрывать, проиграть, проигрыш, поражение   ^ pb, loh
 niq = niqa == draw, tie, drawn @ ничья ничейный   ^ pb
 gabla = kaput = "gm ovr" == game over @ гра окончена, габелла   //Gr"kaputt", Ita"fare cappella"
-ff = sur = surn == surrender, capitulation, capitulate, give up, yield, forfeit @ сдаваться, сдаться, сдача, капитуляция, капитулировать   ^ yld
+ff = sur = surn == surrender, capitulation, capitulate, give up, yield, forfeit @ сдаваться, сдаться, сдача, капитуляция, капитулировать   ^ yld, off
 yld == yield, succumb, give in @ поддаваться, поддавки, уступать, уступки, уступить   ^ ff
 bol = mxq == ball @ мяч   ^ car
 girx == kettlebell @ гиря, гирька
@@ -5213,7 +5230,8 @@ akronim == acronym (an abbreviation pronounced like a regular word) @ акроним (а
 eponim == eponym (derived from a proper name) @ эпоним (произошедший от имени собственного)
 etim = etimo == etymology, etymologic, etymological @ этимология, этимологический
 azmo = azmof = "az mof" == allomorph, another form of the same @ алломорф, другая форма того же самого
-mtf = mtaf == metaphor @ метафора, метафорический
+mtf = mtaf == metaphor, figuratively @ метафора, метафорически, метафорический, в переносном смысле
+eptt = epitt == epithet, a word of evaluation @ эпитет, оценочное слово
 
 
 # psychic @ психика
@@ -5228,12 +5246,12 @@ udy = udum = "dum sru" == think, through @ продумать, продуманный, продумывать
 ddy = ddum = "di dy" == change your mind @ передумать
 zt = zot = kogn = "dy obj" == thought, cognitive @ мысль, мыслить, мысленный, мыслительный, когнитивный  ^ zti
 zti = zoti = "zt i" == thought @ мысли
-ogn = ogno == forecast, prognosis @ прогноз, прозировать, прогнозирующий   ^ pror, fosi, hao
+ogn = ogno == forecast, prognosis, predict @ прогноз, прозировать, прогнозирующий   ^ pror, fosi, hao
 hao = haos = "n ogn" == chaos @ хаос, хаотический, хаотично
 fosi == foresee @ предвиденье, предвидеть, предвосхитить, предвосхищат   ^ ogn
 int = inta = mind = maind == intellect @ интеллект, программа поведения   ^ nuo, II, drd
 itc = ituc == intuition, insight @ интуиция, интуитивный, инсайт
-pon = ux = uxs = rojr = fazom = "hv naf sis ifo" == understand, roger, figure out, fathom @ понимать, понятно, понять, понял, понятный, постигать, постичь, разборчивый, разборчиво, разобрать, уяснить
+ux = pon = uxs = rojr = fazom = "hv naf sis ifo" == understand, roger, figure out, fathom @ понимать, понятно, понять, понял, понятный, постигать, постичь, разборчивый, разборчиво, разобрать, уяснить
 koq = konq = "sis ati pm" == consciousness, conscious @ сознание, сознательный, сознать, сознавать   ^ soz, akoq
 akoq = "an koq" == subconscious, subconsciously @ подсознание, подсознательный, подсознательно
 soz == realize, aware @ осознавать, осознать, осознание, осознающий   ^ koq
@@ -5268,9 +5286,13 @@ rfd = rfdr = trnd = "rfc dr" == trend @ тренд, трендовый
 ogz = ogzm == orgasm @ оргазм
 glhtr = glhytr = "gl hyt er" == misogynist, misogynistic @ женоненавистник
 isc = disc == discipline, disciplined @ дисциплина, дисциплинированный
+ekvr = ekvrt == extrovert @ экстраверт
+invr = invrt == introvert @ интроверт
+ept = epat = empat == empathy, empathic @ эмпатия, эмпатический
+
 
 -- positive traits
-nr = nra = laik == like @ нрав, нравится, нравиться, понравившийся, понравиться   ^ nnr, lw
+nr = nra = laik == like @ нрав, нравится, нравиться, понравившийся, понравиться, лайкать, лайк   ^ nnr, lw
 vl = gud == good, well, fine @ хорошо, хороший, хорошеть, благо   ^ btr, bst, mta, bd
 btr = vlei = "vl ei" == better @ лучше
 bst = best = "vl eq" == best @ лучший
@@ -5326,7 +5348,7 @@ ado = rado == glad, rejoice, please @ радость, радостно, радостный, радовать, ра
 liko = glie == glee @ ликование, ликовать, ликующий   ^ ado
 fun = funi = fani = rjak == fun, funny @ веселье, весёлый, весело, смешно, смешной, веселиться, забава, забавный, забавляться, ржака, ржачный   ^ bav
 emw = emwz = mwz = amwz = amw == amuse, amusement, entertainment @ развлекать, развлечение, развлекательный,  развлекаться, развлечься
-aif = kaif = kaef == kaif, bliss, blissful @ кайф, блаженство, блаженый, безделье, бездельничать, прикольный, прикольно, состояние опьянения
+aif = kaif = kaef = bald == kaif, bliss, blissful @ кайф, блаженство, блаженый, безделье, бездельничать, прикольный, прикольно, состояние опьянения, балдеть, балдёж, балдёжный
 acn = pacn == passion, passionate @ страсть, страсти, страстный, страстно
 epik = epiq == epic, epical @ эпично, эпичный, эпический, эпик
 udv = sati == satisfaction, satisfactorily, satisfy, fulfill @ удовлетворение, удовлетворительно, удовлетворить, удовлетворять, удовлетворённость, сатисфакция
@@ -5390,7 +5412,7 @@ gini == genius, brilliant, genial @ гениальный, гений, гениально
 savat = savant == savant @ савант
 oboj == adore, adoring, adoration, idolatry @ обожать, обожающий, обожание, обожаю   ^ ador
 ador == adorable @ очаровательно, очаровательный, очаровать   ^ oboj
-ivi = rivi == privilege @ привилегия, привилегированный
+ivi = privl == privilege @ привилегия, привилегированный
 aiz = vaiz = mudr == wisdom, wise @ мудро, мудрый, мудрость, мудрить
 seij = aizq = "aiz aq" == sage @ мудрец
 aru = apru = ratif == approve, approval, ratify @ одобрить, одобряю, одобрительно, одобрение, ратификация, ратифицировать
@@ -5416,9 +5438,9 @@ huj = bdei = "bd ei" == worse @ хуже   ^ uhu
 ors = uors = bdq = "bd eq" == worst @ худший
 uhu = uhuj = "du huj" == make worse @ ухудшить, ухудшать   ^ imp
 icu = trabl == issue, problem, problem, trouble, problematic, troublesome @ проблема, проблемынй, проблемно, проблематично, проблемы, хлопоты, хлопотный   ^ pzl
-fir == fear @ страх, страшный, страшно, страшить, пугающий   ^ ow, spuk
-ow = skr = "fir ek" == scare @ испуг, испуган, испуганный, напуган, напуганный, испугать, бояться, боиться, боязно   ^ owk
-owk = pani = panik == panic @ паниковать, паникующий   ^ ow
+fir == fear @ страх, страшный, страшно, страшить, пугающий   ^ ow, spuk, xik
+ow = skr = "fir ek" == scare @ испуг, испуган, испуганный, напуган, напуганный, испугать, бояться, боиться, боязно   ^ xik
+xik = owk = pnik = panik == panic, panicky, panicking @ паника, панический, паниковать, паникующий   ^ ow, fir
 pug = spuk = puga = "du fir" == frighten, intimidate, spook, spooky @ пугать, запугвать   ^ pugk, buka
 pugk = pugak = spukk = "spuk ak" == scarecrow @ пугало
 jut = jutk == creepy @ жуткий, жутко, жуть
@@ -5463,9 +5485,9 @@ mla = mlah == melancholy, melancholia, blues @ меланхолия, меланхоличный, хандра
 raf = grub == rough, rude, gross @ грубо, грубый, грубость
 sso = ssor = dikord == discord, contention, strife, quarreled, quarrel @ ссора, ссориться, поссорились, распря, повздорить
 sfr = safr == suffer, suffering, heartache @ страдание, страдать, страдающий
-dur = baka = durk = durak = idy = idio = idiot = balbs = bolva = bolvan = tvat = "ili aq" == fool, baka, twit, dunce, stupid, twat @ бака, дурак, идиот, дурачливый, идиотический, дурачиться, баловаться, придурок, тупица, болван, выделываться   ^ dura, dmb, durx
+dur = baka = durk = durak = idy = idio = idiot = balbs = bolva = bolvan = tvat = balda = "ili aq" == fool, baka, twit, dunce, stupid, twat @ бака, дурак, идиот, дурачливый, идиотический, дурачиться, баловаться, придурок, тупица, болван, выделываться, балда   ^ dura, dmb, durx
 dura = "dur sa" == stupid female @ дура
-durx = "dur nx" == madhouse @ дурка, сумасшедший дом
+durn = durx = "dur nx" == madhouse @ дурка, сумасшедший дом
 kad == boor, cad, lout, twerp @ хам, хамский, хамить, невежа, невежественный, грубиян, грубить
 abw = abuz == abuse @ злоупотребление, злоупотреблять, абьюз, абьюзивный, абуз   ^ nsi
 env = envi == envy @ зависть, завистиливый, завидовать
@@ -5495,7 +5517,7 @@ gad = gado = gadk == filth, bastard, disgusting @ гадость, гадостный, гадкий, га
 dwm == doom @ обречён, обречённый, обрекать, обречено, обречённо
 muq = muki = torm == torment, torture, excruciate @ мука, муки, мучить, мучительно, терзать, пытать
 kov = trus == coward, poltroon, craven @ трус, трусливый, трусливо   ^ bzdr, ssak
-tln = tlen == vanity, futility, decay, transience @ тлен, тленный, тление   ^ gni
+tln = tlen == vanity, futility, decay, transience @ тлен, тленный, тление, тщетность, тщетный   ^ gni, tlt
 dyt = dyrt = grxz == dirt, dirty @ грязь, грязный, пачкать, пачкаться, запачкать   ^ kln, olw, ils
 olw = polwt == pollute, pollution @ загрязнение, загрязняющий, загрязнять, загрязнить   ^ dyt
 ils = fils == filth, defilement @ скверна, скверно, скверный, осквернять, оскверняющий   ^dyt
@@ -5603,7 +5625,7 @@ sry = srog = srik == strict, strictly, rigorously @ строгий, строго
 cok == shock @ шок, шокировать, шокирующий
 arog == arrogant, arrogantly, superciliously @ надменно, надменный
 quj = alien == alien, stranger, outsider, extraneous @ чужой, чуждый, чужеродный, пришелец, посторонний   ^ azan
-rti = utx = ruti = rutin == routine @ рутина, рутинный   ^ pss
+rti = utx = ruti = rutin == routine @ рутина, рутинный, распорядок   ^ pss
 sus == suspect, suspicious @ подозрительный, подозрительно, подозреваемый, подозревать, подозрение
 pypk == perplexity, perplex, perplexed @ недоумение, недоумевать, недоумевающий
 eku = eksu == extremum, extreme, extremely @ экстремум, экстремальный, экстремально, крайне, крайний
@@ -6103,7 +6125,7 @@ skx = skxt == script @ точный сценарий, сценарный    ^ scno, maor
 maor = "mao iru" == macros, macro instruction @ макрос, макро инструкция   ^ skx
 ikl = sikl == cycle @ цикл, цикличный   ^ lup
 lup == loop @ петля, петлять, виток   ^ ikl
-fnk = unk = funk == function @ функция, функционировать, функционирующий
+fnk = unk = funk == function @ функция, функционировать, функционирующий, служебный
 "f(x)" = "fnk f ot x" == f function from x @ функция фэ от я
 mik = mifn = mifon = "hir ak" == microphone, mike, mic @ микрофон   ^ uhf
 hak == hack @ взлом, взламывать, взломать   ^ omq
@@ -6174,7 +6196,7 @@ kldr = kladr = "klad er" == stockman, storekeeper @ кладовщик
 pol = flur == floor @ пол по которому ходят   ^ gnd, cli
 cli = clin = slin == ceiling @ потолок, потолочный   ^ pol
 hod == pass, traverse @ ход, ходящий, походить, ходить, траверс   ^ psg, fho, sho
-psg = pasa == passage, en passant @ проход, проходить, пройти, проходящий, проходной   ^ psj, pas, hol
+psg = pasa == passage, en passant @ проход, проходить, пройти, проходящий, проходной   ^ psj, pas, hal
 fho = fhod = vho = "f hod" == entrance, enter, entry, inlet @ вход, входной, входить, зайти   ^ fpu, iho
 iho = ihod = uhod = "ut hod" == exit @ выход, выходить, выйти, выходящий, вышедший   ^ upu, lv, fho
 sho = shod == converge, come together @ сход, сходиться, схождение, сходимость, сходящийся   ^ hod, svd
@@ -6201,8 +6223,8 @@ sad == garden(for beuty), yard, orchard @ сад(для красоты), садовый, садик
 ogo = ogor == allotment (garden for food), kailyard, kaleyard @ огород (для еды)
 vomd = "vom dom" == greenhouse, hothouse, conservatory @ теплица, парник, оранжерея
 dpo = depo == depot @ депо, дэпо   ^ duk
-smz = smiz = "hot mtl er" == smith, worker with hot metal @ кузнец, кузнечный, работник с горячим металлом   ^ smzx, ssr   ^ foj
-smzx = "smz nx" == smithy, farriery, stithy @ кузница, кузня
+smz = smiz = "hot mtl er" == smith, worker with hot metal @ кузнец, кузнечный, работник с горячим металлом   ^ smzn, ssr   ^ foj
+smzn = "smz nx" == smithy, farriery, stithy @ кузница, кузня
 foj = forj == forge, forging, forged @ ковать, ковка, кованый, подковать, заковать   ^ smz, ctp
 ssr = ssar = "hla mtl er" == locksmith, worker with cold metal @ слесарь, работник с холодным металлом
 nor = nora == burrow @ нора    ^ dra
@@ -6232,8 +6254,8 @@ bdri = "bdr i" == borders @ границы
 cht = caht == mine @ шахта, шахтёрский, добывать, добывающий   ^ chtr
 chtr = "cht er" == miner @ шахтёр, добытчик, майнер
 ctol = "grz cht" == adit, gallery tunnel @ штольня, горизонтальная шахта
-mlx = mllx = "mll nx" == grinder, mill @ мельница, мельничный   ^ mlxr, qopk
-mlxr = "mlx er" == miller @ мельник
+mln = mlln = mlx = mllx = "mll nx" == grinder, mill @ мельница, мельничный   ^ mlxr, qopk
+mlnr = mlxr = "mln er" == miller @ мельник
 yrk = park == amusement park @ парк отдыха и развлечений, парковый
 zuy = "zu yrk" == zoo, zoological garden @ зоопарк
 crk = cirk == circus @ цирк, цирковой
@@ -6258,8 +6280,8 @@ rey = trop == trail @ тропа    ^ tac
 ruf == roof, roofing @ крыша, крышевой, крышный, кровля, кровельный   ^ kap
 eiz = meiz == maze @ лабиринт
 lof = loft = atik == loft, attic @ чердак, чердачный, лофт
-hol == corridor, hallway, hall, passage @ коридор, корридор, проход, прихожая   ^ zal
-zal == living room, parlor @ зал, гостиная, гостинная   ^ hol, hol
+hal = koridor == corridor, hallway, hall, passage @ коридор, корридор, проход, прихожая   ^ zal, hol
+zal == living room, parlor @ зал, гостиная, гостинная   ^ hal
 zon = obl = rjn = rijn = area = arex == area, domain, region, district, zone @ зона, область, областной, регион, региональный, район, районный   ^ gub
 spa == spa @ спа
 stx = stxc == station @ станция   ^ stc
@@ -6283,10 +6305,10 @@ pbnx = pbanx == anteroom @ предбанник
 mzu = muzu == museum @ музей, музейный   ^ eld
 axk = maxk == lighthouse, beacon, loom @ маяк, маячить   ^ axq
 dam = damb == dam, dike, dyke @ дамба, плотина   ^ dmb
-xcx = xcnx = "xc nx" == dining room @ столовая
-xtx = xtnx = stox = "xt nx" == stables @ стойло
+xcn = xcx = xcnx = "xc nx" == dining room @ столовая
+xtn = xtx = xtnx = stox = "xt nx" == stables @ стойло
 nva = nava == ditch @ канава
-jek = "syv nx" == housing office @ ЖЭК, жилищно-эксплуатационная контора
+jek = syvn = "syv nx" == housing office @ ЖЭК, жилищно-эксплуатационная контора
 fda = fuda == foundation, fundamental @ фундамент, фундаментальный
 qnl == channel, canal @ канал, канальный   ^ qnx, qat, dct
 qnx = qnlx = "qnl ix" == canalization, sewage, sewer, sewerage, sanitation @ канализация

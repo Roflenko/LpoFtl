@@ -1,5 +1,8 @@
-# 14.07.26
+# 08.06.26
+«n» instead of «x» concatenated in words for «nx»
 
+
+# 14.07.26
 -- dl:
 ad == add @ добавлять, добавить, добавленный, добавочный, добавка   ^ pw, dop
 d = ed == [s] accomplished, -ed @ свершённый   ^ da   //at sentence start works as "da"
