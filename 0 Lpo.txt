@@ -1,4 +1,4 @@
-### Leporish Dictionary update 25.11.26 (5921 lemmas)(N1: 03.12.25):
+### Leporish Dictionary update 25.11.26 (5927 lemmas)(N1: 03.12.25):
 //all materials: https://github.com/Roflenko/LpoFtl   ,
 // https://drive.google.com/drive/folders/1bAzzh8gHhv9JwHQLpxnrorTEpVuEgBOn?usp=drive_link
 //social: https://t.me/LpoFtl   https://vk.com/LpoFtl   //author: https://vk.com/agpucok
@@ -202,7 +202,7 @@ oq == [d] very @ очень
 kv == [d] quite @ вполне, довольно, весьма   ^ dvo
 ud == [d] would, action subject to condition @ бы, действие при условии
 "ud bi" == i wish, if only @ вот бы
-at = vsu = vsus == [d] anti, versus, against, opposite, vs, contr @ против, противо   ^ prt, opz
+at = vsu = vsus == [d] anti, versus, against, opposite, vs, contr @ против, противо, анти  ^ prt, opz
 b = be == [d] without @ без   ^ ny
 ot == [d] movement from @ от, двигаясь от этого   ^ fm, uf
 na == [d] on @ сверху касаясь   ^ uv
@@ -2594,7 +2594,7 @@ pxt = pxta == heel @ пятка, пята
 pxti = "pxt i" == heels @ пятки
 podo = podoc == sole, plantar @ подошва, подошвенный
 toe == toe @ палец ноги   ^ gr
-cg = cag == step @ шаг, шагающий, шагать, ступать, наступать, ступить, поступь   ^ ccg, stp, cgi, tpt
+cg = cag == step @ шаг, шагающий, шагать, ступать, наступать, ступить, поступь   ^ ccg, stp, cgi, tpt, cgk
 cgi = cagi = "cg i" == steps @ шаги
 ccg = ccag = straid = "cz cag" == stride @ широки шаг
 tpt = topot == stomp, stomping, trample @ топот, топтание, топтаться, топтать, топать, растоптать, растаптывать   ^ tap
@@ -4006,7 +4006,9 @@ rus = parus = seil == sail, velum @ парус, парусный
 rel = reil == rail @ рельс, рельсовый, рейка, реечный, рельсы   ^ hndr, sni
 hnr = hnrl = "hn rel" == handrail @ поручень
 sni = sani == sleigh, sled, sledge @ сани, санки, салазки   ^ rel
-casi == chassis @ шасси, ходовая часть   ^ frm
+csi = casi == chassis @ шасси, ходовая часть   ^ frm, cgk
+cgk = cagk = "cg ak" == stilt, walker drives @ ходуля, приводы шагохода   ^ cgki, csi
+cgki = cagki = "cgk i" == stilts @ ходули
 
 
 # military
@@ -4783,8 +4785,12 @@ npo = npot = npoti == nepotism @ кумовство, непотизм
 # religion
 qoq == church @ церковь, церковный
 rlg = rlig = rlj = rlij == religion, religious @ религия, религиозный
-fc = ver = vera == belief, faith @ вера, верующий, верить   ^ kfc, krd, fcv
+fc = ver = vera == belief, faith @ вера, верить   ^ kfc, krd, fcv, fcr
+fcr = "fc er" == believer @ верующий   ^ ate
 fcv = fcvl = fcvla = "fc vla" == theocracy @ теократия, теократичный
+dgm = dgma = "prm ro" == dogma, dogmatic, unchanging truth @ догма, догматический, неизменная истина
+ate == atheist, atheism @ атеист, атеизм
+atko = "at ko" == agnostic, agnosticism @ агностик, агностицизм
 kfc = kofc == faith, confession @ конфессия   ^ fc
 klt = kult == cult @ культ, поклонение, поклоняться, обожествлять
 sekt == sect @ секта, сектантский
@@ -4822,7 +4828,7 @@ boj = diva == divine @ близкий к богу, божественный, обожествлять   ^ god
 ere = eres = eresi == heresy @ ересь, еретический
 err = erer = "ere er" == heretic @ еретик
 trac = tranc == trance, entrancement @ транс, трансовый
-xzq = pagan == pagan @ язычник, язычный, языческий
+xzq = pagan == pagan, infidel @ язычник, язычный, языческий
 akol = akolt = akolit == acolyte @ аколит, послушник, паломник, прислужник
 anh == ankh, cross with a loop @ анх, крест с петлёй
 
@@ -5988,7 +5994,7 @@ pyp = dsti == intend, destiny, destination, purpose, purposeful, intentional @ н
 ekt = proj == project @ проект, проектный, проектировать, проецировать
 gre = gres == progress @ прогресс, прогрессивный, прогрессировать
 "r gre" == regress @ регресс, упадок
-mto = meto = mtod = "fo qa" == method @ метод, методологический, способ   ^ sis
+mto = meto = mtod = "fo qa" == method @ метод, методологический, способ, подход   ^ sis
 sis = sist = "mto arr" == system @ система, строй   ^ gct
 gct = gctl = gctal = "tsl ij"== gestalt, holistic image @ гештальт, целостный образ   ^ sis
 rfa = rfain == refine @ очистка и улучшение   ^ imp
@@ -6237,7 +6243,7 @@ opl = kyml = "pss en asm" == compilation, compile @ компиляция (обработать и соб
 oplk = "opl ak" == compiler @ компилятор
 ini == inicialization @ инициализация, инициализировать
 ife = ifei = ifeis == interface @ интерфейс   ^ fs, wi
-akk = akka = uqot == account @ аккаунт, учёт, учётная запись   ^ twik
+akk = akka = uqot == account @ аккаунт, учёт, учётная запись, учесть, учитывать   ^ twik
 twik = tvink = "twi akk" == twink @ твинк
 ads = adrs == adress, address @ адресс, адресный   ^ uk
 ez = ezk == execution, execute @ выполнение, выполнять, выполняемый, исполнять, исполняемый, исполнено   ^ vip
